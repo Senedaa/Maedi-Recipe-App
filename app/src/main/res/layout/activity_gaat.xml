@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dnish">
+
+    <ScrollView
+        android:layout_width="522dp"
+        android:layout_height="877dp"
+        android:background="#F8E8E3"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardrecipedinish"
+                android:layout_width="366dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toTopOf="@+id/cardrecipegaat"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.59000003">
+
+                <ImageView
+                    android:id="@+id/imggaat"
+                    android:layout_width="241dp"
+                    android:layout_height="188dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/gaat" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#F8F3F1"
+                    android:text="@string/txtrecipe4"
+                    android:textColor="#1B1919"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <RadioGroup
+                android:id="@+id/radiogrp1"
+                android:layout_width="322dp"
+                android:layout_height="62dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.39"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.155">
+
+                <RadioButton
+                    android:id="@+id/radiobtnfamily"
+                    android:layout_width="157dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/radiobtndnish1"
+                    android:textColor="#616161"
+                    android:textColorHint="#0C0C0C" />
+
+                <RadioButton
+                    android:id="@+id/radiobtnone"
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radiobtndnish2" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtresult1"
+                android:layout_width="304dp"
+                android:layout_height="68dp"
+                android:textColor="#FF5722"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.321"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radiogrp1"
+                app:layout_constraintVertical_bias="0.03" />
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="345dp"
+                android:layout_height="205dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.318"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.321">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarSize="4dp">
+
+                    <TextView
+                        android:id="@+id/txtresult2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:lineSpacingExtra="12sp"
+                        android:textColor="#0B0A0A"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Tablerow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txtresult33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="12sp"
+                        android:textColor="#0B0A0A"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txtresult4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="12sp"
+                        android:textColor="#0B0A0A"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txtresult5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="12sp"
+                        android:textColor="#0B0A0A"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txtresult6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="12sp"
+                        android:textColor="#0B0A0A"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txtresult7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="12sp"
+                        android:textColor="#0B0A0A"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txtresult8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="12sp"
+                        android:textColor="#0B0A0A"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txtresult9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="12sp"
+                        android:textColor="#0B0A0A"
+                        android:textSize="16sp" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/txtresult10"
+                android:layout_width="290dp"
+                android:layout_height="51dp"
+                android:textColor="#FF5722"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.195"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+                app:layout_constraintVertical_bias="0.079" />
+
+            <TextView
+                android:id="@+id/txtresult11"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:textColor="#0B0A0A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.311"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtresult10"
+                app:layout_constraintVertical_bias="0.102" />
+
+            <TextView
+                android:id="@+id/txtresult12"
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                android:textColor="#0B0A0A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.345"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtresult11"
+                app:layout_constraintVertical_bias="0.05" />
+
+            <TextView
+                android:id="@+id/txtresult13"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:textColor="#0B0A0A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.274"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtresult12"
+                app:layout_constraintVertical_bias="0.059" />
+
+            <TextView
+                android:id="@+id/txtresult14"
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
+                android:textColor="#0B0A0A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.293"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtresult13"
+                app:layout_constraintVertical_bias="0.097" />
+
+            <TextView
+                android:id="@+id/txtresult15"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:textColor="#0B0A0A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.338"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtresult14"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <Button
+                android:id="@+id/btnrateus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnrateus" />
+
+            <Button
+                android:id="@+id/btnwebinfo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More information" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

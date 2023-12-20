@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">መኣዲ Recipe</string>
+    <string name="txtintroduction1">"እቲ ኣብ ኤርትራ ዚቐርብ ምግቢ ኢንጀራን እተፈላለየ ዓይነት ጸብሒን ዝሓዘ እዩ ። እዚ ምግቢ እዚ ኣሕምልትን መብዛሕትኡ ግዜ ቐመም ዘለዎ ስጋን ዝሓዘ እዩ። እዚ እንጌራ እዚ መብዛሕትኡ ግዜ ኣብ ልዕሊ ኢንጀራ ዚቐርብ ስጎ እዩ ፣ እዚ እንጌራ እዚ ሰንጣቒቱ 20 ሰንቲ ሜተር እዩ ፣ ካብ እተፈልሰ ሓርጭ ድማ እዩ ዚስራሕ ። ኢንጀራ ነቲ ኣብ ብያተይ ዚርከብ እተፈላለየ ቐመም ዘለዎ ጸብሒታትን ሰላቫን ንምርካብ የገልግል እዩ። ህዝቢ ሃበሻ ቝርጽራጽ ኢንጀራ ተጠቒሞም ብኣእዳዎም ይበልዑ ። "</string>
+    <string name="txtintroduction3">በርበረ - ቀመማትን ሽቱን መብዛሕትኡ ግዜ ከም በርበረ ቺሊ ጻዕዳ ሽጕርቲ ስሚንቶ ባሲል ጸሊም በርበረ ሩዕ ዕምባባ ፈነል ከምኡውን ፈኑግሪክ የጠቓልል ። ቀንዲ ተዋጽኦ ምግቢ እዩ ። ነዚ ኣቕሓ እዚ ኻብ ዝዀነ ይኹን ኣብ ከባቢኻ ዚርከብ ድኳን ኤርትራት ወይ ኢቲፕያን ክትረኽቦ ትኽእል ኢኻ።</string>
+    <string name="txtintroduction2">"ገለ ኻብቲ ቓላት ከምዚ ብምባል ተገሊጹ ኣሎ - "</string>
+    <string name="txtintroduction4">እንታይ ዓይነት ምግቢ ብዝያዳ ኸተተኵር ከም ዘሎካ ምእንቲ ኽትርዳእ BMI (መሐበሪ ሰብነትካ) ምጽብጻብ ኣገዳሲ እዩ</string>
+    <string name="txtrecipe1">ዝርዝር ምግቢ ኤርትሩ</string>
+    <string name="txtrecipe2">ዝርዝር እቲ ኤርትረሳውያን ዚበልዕዎ ልሙድ ምግቢ እንሆ፦</string>
+    <string name="imgbtnrecipe1">ምግቢ ድንሽ</string>
+    <string name="imgrecipe2">ጋት ሓደ ኻብቲ ኣብ ኤርትራት ልሙድ ዝዀነ ቍርሲ እዩ ።</string>
+    <string name="txtrecipe3">ምግቢ ድንሽ</string>
+    <string name="txtrecipe4">"ኣሰራርሓ ጋያት "</string>
+    <string name="txtbmi">ቀመር BMI</string>
+    <string name="hinrecipe1">ክብደትካ ኣእቱ (Kg)</string>
+    <string name="hintrecipe2">ቍመትካ ኣእቱ (cm)</string>
+    <string name="btnbmirecipe">ቀመር</string>
+    <string name="txtintro2">ምግቢ ንምኽሻን ዜነቓቕሕ ነገር ርኸብ</string>
+    <string name="radiobtndnish1">"ስድራ ቤት "</string>
+    <string name="radiobtndnish2">"ሓደ "</string>
+    <string name="btnbmi">ቀመር BMI</string>
+    <string name="txtintro">"ኣሰራርሓ ኤርትራን ማዲ "</string>
+    <string name="btnintro">"መእተዊ "</string>
+    <string name="btnrecipe">ምግቢ</string>
+    <string name="btnfood1">መማኸሪ ምግቢ</string>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Meadi  Recipe </string>
+    <string name="txtintro">Meadi  RECIPE</string>
+    <string name="btnintro">Introduction</string>
+    <string name="btnrecipe">Recipes</string>89
+    <string name="btnbmi">Food Recommender</string>
+    <string name="txtintroduction1">The Eritrean Food typical meal consists of injera and several kinds of stew. This cuisine consists of vegetables and often very spicy meat dishes. This is usually in the form of sauce served on top of Injera , a large sourdough flatbread which is bout 50 centimeteres (20 inches) in diameter and made out of fremented teff flour. Injera is used to scoop up variety of spicy stews and salads found on ny plate. Habesha people eat with their hands, using pieces of Injera to pick up bites and side dishes.</string>
+    <string name="txtintroduction2">Some of the terms explained:</string>
+    <string name="txtintroduction3">Berbere : is a spice mixture whose constituent elements usually include chili peppers, garlic, ginger, basil, black pepper, rue, fennel flower, and fenugreek. It is a key ingredient in cuisine. You can find this item from any local Eritrean or Ethiopian Store.</string>
+    <string name="txtintroduction4">It is Important to calculate your BMI (Body Mass Index), in order to understand in what kind of food to concentrate more.</string>
+    <string name="txtrecipe1">Eritrean Recipes Menu</string>
+    <string name="txtrecipe2">Here is the list of recipes of the most the common foods eaten by Eritreans:</string>
+    <string name="imgbtnrecipe1">Dinish Eritrean Potato Stew Food</string>
+    <string name="imgrecipe2">Gaat is one of the most common Eritrean breakfast.</string>
+    <string name="txtrecipe3">Potato Stew (Dnish)</string>
+    <string name="txtrecipe4">Ga\'at Recipe</string>
+    <string name="txtbmi">Food Recommender (BMI)</string>
+    <string name="hinrecipe1">Enter Your Weight (Kg)</string>
+    <string name="hintrecipe2">Enter Your Height (cm)</string>
+    <string name="btnbmirecipe">Calculate</string>
+    <string name="txtintro2">Find Inspiration to Cook</string>
+    <string name="radiobtndnish1">Family</string>
+    <string name="radiobtndnish2">One</string>
+    <string name="btnfood1">Food Recommender</string>
+    <string name="title_activity_dnish" translatable="false">Dnish</string>
+    <string name="large_text" translatable="false">
+    </string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_dnish_scroll" translatable="false">DnishScroll</string>
+    <string name="btnrateus" translatable="false">Rate Us</string>
+
+</resources>
