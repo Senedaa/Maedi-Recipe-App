@@ -23,6 +23,8 @@ So when the user reaches the last part of the page, there is a button to "Rate" 
 
 ![Screenshot5](https://github.com/Senedaa/Maedi-Recipe-App/assets/123666433/a6b14743-b6de-4736-aa6c-4d4c9d72aece)
 
+<h4>To create this app, I used Android Studio</h4>
+
 
 
 
